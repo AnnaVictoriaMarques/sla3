@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Feliz Aniversário!</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>🎉 Feliz Aniversário, André! 🎉</h1>
+        <p>Hoje é um dia super especial, pois celebramos os seus 17 anos! Quero aproveitar essa oportunidade para te dizer o quanto você é importante para mim. Desde que nos conhecemos, nossa amizade só cresceu, e sou muito grata por ter você ao meu lado.
+
+            Você é uma pessoa incrível, sempre trazendo alegria e risadas para os meus dias. Admiro sua coragem e a forma como enfrenta os desafios com um sorriso no rosto. Que este novo ano de vida seja repleto de aventuras, conquistas e muitas realizações!
+            
+            Espero que possamos continuar criando memórias inesquecíveis juntos. Aproveite muito seu dia, porque você merece tudo de bom!❤️</p>
+
+        <h2>Quiz sobre nós!</h2>
+        <div class="quiz">
+            <p><strong>1. o que mais gostamos de fazer?</strong></p>
+            <button onclick="responderQuiz('Viagem')">Jogar</button>
+            <button onclick="responderQuiz('Festa')">Beber</button>
+            <button onclick="responderQuiz('Cinema')">Sair</button>
+
+            <p><strong>2. Qual foi o melhor filme que assistimos juntos?</strong></p>
+            <button onclick="responderQuiz('Filme A')">Deadpool e Wolverine</button>
+            <button onclick="responderQuiz('Filme B')">É assim que acaba</button>
+            <button onclick="responderQuiz('Filme C')">Todo mundo em Pânico</button>
+
+            <p><strong>3. Qual é a nossa música favorita?</strong></p>
+            <button onclick="responderQuiz('Música A')">Sinto sua falta</button>
+            <button onclick="responderQuiz('Música B')">Tipo obito</button>
+            <button onclick="responderQuiz('Música C')">Não vou mais pegar vilões</button>
+
+            <div id="resultado" class="hidden"></div>
+        </div>
+
+        <h2>Nossos 3 Melhores Momentos</h2>
+        <ul>
+            <li>
+                1. 
+                <img src="imagens/momento1.jpeg" alt="Descrição do momento 1" style="width: 300px; margin: 10px; border-radius: 10px;">
+            </li>
+            <li>
+                2. 
+                <img src="imagens/momento2.jpeg
+                " alt="Descrição do momento 2" style="width: 300px; margin: 10px; border-radius: 10px;">
+            </li>
+            <li>
+                3. 
+                <img src="imagens/momento3.jpeg" alt="Descrição do momento 3" style="width: 300px; margin: 10px; border-radius: 10px;">
+            </li>
+        </ul>
+
+        <h2>Bolo de Aniversário 🎂</h2>
+        <div class="bolo" onclick="apagarVelas(this)">🕯️🕯️🕯️</div>
+
+        <p id="mensagem-bolo" class="hidden">As velas foram apagadas! 🎉</p>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

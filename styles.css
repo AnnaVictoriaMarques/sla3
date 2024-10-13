@@ -1,0 +1,32 @@
+body {
+    background-color: #f9e4b7;
+    font-family: 'Arial', sans-serif;
+    text-align: center;
+}
+
+.container {
+    margin-top: 20px;
+}
+
+button {
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 16px;
+    background-color: #ffcc00;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.hidden {
+    display: none;
+}
+
+.bolo {
+    font-size: 50px;
+    cursor: pointer;
+}
+
+#resultado {
+    margin-top: 10px;
+}
